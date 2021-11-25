@@ -35,7 +35,7 @@ body{font-family: 'Quicksand', sans-serif;padding: 25px}
 .lovein:hover, .scrollImage p img:hover{transition:all .1s ease;transform: scale(1.2);}
 </style>
 
-<h1>Untukmu <div id="lope" class="leaves" style="display:inline-block;align-items:center;justify-content:center;">&#9829;</div></h1>
+<h1>Adek Iyas <div id="lope" class="leaves" style="display:inline-block;align-items:center;justify-content:center;">&#9829;</div></h1>
 <p id="geser">Geser dong dekkk ><</p>
 
 <!-- Ucapan -->
@@ -63,7 +63,7 @@ body{font-family: 'Quicksand', sans-serif;padding: 25px}
             async function mulai(){
                 var { value: nama } = await swals.fire({
                     title: 'Nama kamu?',
-                    input: 'tyasssss',
+                    input: 'text',
                     showCancelButton: false,
                 });
                 if(nama){
@@ -108,7 +108,7 @@ body{font-family: 'Quicksand', sans-serif;padding: 25px}
                             if(wht){
                             	await swals.fire(`Okeyyy`, `Nanti ${nama} kirim pesan ini ke WhatsApp ${author} ya &#10084;&#65039;`);
                             	//nomor WhatsApp
-                                window.location = "https://api.whatsapp.com/send?phone=&text=Hai,%0AMmmm:'%0A%0AAku%20udah%20bacain%20semuanya><";
+                                window.location = "https://api.whatsapp.com/send?phone=6285745110869&text=Hai,%0AMmmm:'%0A%0AAku%20udah%20bacain%20semuanya><";
                             } else {
                                 //gak ke wa
                                 await swals.fire('Okeey. See you &#10084;&#65039;');
